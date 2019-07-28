@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">HowMuchDoYouKnow</string>
+    <string name="button">Button</string>
+    <string name="love">love</string>
+    <string name="personality">personality</string>
+    <string name="ethics">ethics</string>
+    <string name="life_death">Life &amp; Death</string>
+    <string name="politics">politics</string>
+    <string name="sex">sex</string>
 </resources>
