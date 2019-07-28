@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e587c883a61992bbd656b8e05082dba5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\6d76174e0a4c27812a7cc72ebc058451\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\1eb94623655aad04bd8b4909ca3483f3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e3c5638faab9b818474c47c8714337c9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\7b6eb26d7bea6191cc97cb3a129ef3aa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\29c3a47a27026b88a3f801f231469210\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\3d1210896ceef8ce55e0cb995b837d3a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\ae8ed9e8a437304ad6718f4e28691b3e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\a3c5a4a4d5ca1f219714a15c65b51fd1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\9ad6ccd68fcef0699bbc991e8babe8e9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\553c215bc17045188c5bc992e630ea2e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\ff6e27978a13594afaa777ca4089909f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\f6ea7f6480744734835c12fa4f3bc66b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\2aef45ea65a047ed62e040af4a4b3b56\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\c86116d35ffaf4bf56c7878dbcb8c7be\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\904ccacd2ba6d5527440d9ec1dbaf70d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\6aa342de8c1370d5cc327c34e1d04594\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\54b457eb234061717a8849b236f02afc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e0b69592a0f76e0818422357266db0a5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\5ec36c42ff296ab0f90fda7a5a5e4ee9\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\cf6864a5298f91251e79671bec37e487\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\73cb151797318cf2be88469d9bc4426a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\6fd011a27f5575b42cd78ad1ec1b4d1f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\9e6cf992b02e066cf74bbc67bbdb81c6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\bd4d4194541504e4362b5503da4bf30a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\3e8cab3f090fc13084317e78de0712ef\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\b28304ed21e0fe7d3bc815be4b1af2a9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\aff6bca13015a70e20068f36e5b76702\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\8ae27f5f20873681ca7bd0d1cad9d36f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\639ad34a21ea50650ba1df36faf31650\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\2c4daefbd69b01c5e1508ab5a0160dbb\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e587c883a61992bbd656b8e05082dba5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e587c883a61992bbd656b8e05082dba5\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\1eb94623655aad04bd8b4909ca3483f3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\1eb94623655aad04bd8b4909ca3483f3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.1] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e0b69592a0f76e0818422357266db0a5\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e0b69592a0f76e0818422357266db0a5\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\5ec36c42ff296ab0f90fda7a5a5e4ee9\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\5ec36c42ff296ab0f90fda7a5a5e4ee9\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e0b69592a0f76e0818422357266db0a5\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.howmuchdoyouknow.TestPage
+ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:12:9-55
+	android:name
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:12:19-43
+activity#com.example.howmuchdoyouknow.Questions
+ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:13:9-47
+	android:name
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:13:19-44
+activity#com.example.howmuchdoyouknow.MainActivity
+ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e587c883a61992bbd656b8e05082dba5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e587c883a61992bbd656b8e05082dba5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\6d76174e0a4c27812a7cc72ebc058451\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\6d76174e0a4c27812a7cc72ebc058451\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\1eb94623655aad04bd8b4909ca3483f3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\1eb94623655aad04bd8b4909ca3483f3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e3c5638faab9b818474c47c8714337c9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e3c5638faab9b818474c47c8714337c9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\7b6eb26d7bea6191cc97cb3a129ef3aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\7b6eb26d7bea6191cc97cb3a129ef3aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\29c3a47a27026b88a3f801f231469210\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\29c3a47a27026b88a3f801f231469210\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\3d1210896ceef8ce55e0cb995b837d3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\3d1210896ceef8ce55e0cb995b837d3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\ae8ed9e8a437304ad6718f4e28691b3e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\ae8ed9e8a437304ad6718f4e28691b3e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\a3c5a4a4d5ca1f219714a15c65b51fd1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\a3c5a4a4d5ca1f219714a15c65b51fd1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\9ad6ccd68fcef0699bbc991e8babe8e9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\9ad6ccd68fcef0699bbc991e8babe8e9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\553c215bc17045188c5bc992e630ea2e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\553c215bc17045188c5bc992e630ea2e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\ff6e27978a13594afaa777ca4089909f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\ff6e27978a13594afaa777ca4089909f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\f6ea7f6480744734835c12fa4f3bc66b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\f6ea7f6480744734835c12fa4f3bc66b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\2aef45ea65a047ed62e040af4a4b3b56\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\2aef45ea65a047ed62e040af4a4b3b56\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\c86116d35ffaf4bf56c7878dbcb8c7be\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\c86116d35ffaf4bf56c7878dbcb8c7be\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\904ccacd2ba6d5527440d9ec1dbaf70d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\904ccacd2ba6d5527440d9ec1dbaf70d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\6aa342de8c1370d5cc327c34e1d04594\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\6aa342de8c1370d5cc327c34e1d04594\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\54b457eb234061717a8849b236f02afc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\54b457eb234061717a8849b236f02afc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e0b69592a0f76e0818422357266db0a5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\e0b69592a0f76e0818422357266db0a5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\5ec36c42ff296ab0f90fda7a5a5e4ee9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\5ec36c42ff296ab0f90fda7a5a5e4ee9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\cf6864a5298f91251e79671bec37e487\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\cf6864a5298f91251e79671bec37e487\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\73cb151797318cf2be88469d9bc4426a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\73cb151797318cf2be88469d9bc4426a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\6fd011a27f5575b42cd78ad1ec1b4d1f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\6fd011a27f5575b42cd78ad1ec1b4d1f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\9e6cf992b02e066cf74bbc67bbdb81c6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\9e6cf992b02e066cf74bbc67bbdb81c6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\bd4d4194541504e4362b5503da4bf30a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\bd4d4194541504e4362b5503da4bf30a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\3e8cab3f090fc13084317e78de0712ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\3e8cab3f090fc13084317e78de0712ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\b28304ed21e0fe7d3bc815be4b1af2a9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\b28304ed21e0fe7d3bc815be4b1af2a9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\aff6bca13015a70e20068f36e5b76702\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\aff6bca13015a70e20068f36e5b76702\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\8ae27f5f20873681ca7bd0d1cad9d36f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\8ae27f5f20873681ca7bd0d1cad9d36f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\639ad34a21ea50650ba1df36faf31650\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\639ad34a21ea50650ba1df36faf31650\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\2c4daefbd69b01c5e1508ab5a0160dbb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jordan.case\.gradle\caches\transforms-2\files-2.1\2c4daefbd69b01c5e1508ab5a0160dbb\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jordan.case\AndroidStudioProjects\MyProjects\CollaborationApps\HowMuchDoYouKnow\app\src\main\AndroidManifest.xml
