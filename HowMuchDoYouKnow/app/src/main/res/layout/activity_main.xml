@@ -7,7 +7,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/darkGrey">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,21 +19,23 @@
             android:id="@+id/genre1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorPrimary"
+            android:background="@color/LightBlue"
             android:layout_weight="1.0"
             android:tag="@string/politics"
             android:text="@string/politics"
-            android:onClick="genreSelected"/>
+            android:onClick="genreSelected"
+            android:layout_margin="5dp"/>
 
         <Button
             android:id="@+id/genre2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/white"
+            android:background="@color/LightBlue"
             android:layout_weight="1.0"
             android:text="@string/sex"
             android:tag="@string/sex"
-            android:onClick="genreSelected"/>
+            android:onClick="genreSelected"
+            android:layout_margin="5dp"/>
 
     </LinearLayout>
 
@@ -46,21 +49,23 @@
             android:id="@+id/genre3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/white"
+            android:background="@color/Blue"
             android:layout_weight="1.0"
             android:text="@string/love"
             android:tag="@string/love"
-            android:onClick="genreSelected"/>
+            android:onClick="genreSelected"
+            android:layout_margin="5dp"/>
 
         <Button
             android:id="@+id/genre4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorPrimary"
+            android:background="@color/Blue"
             android:layout_weight="1.0"
             android:text="@string/personality"
             android:tag="@string/personality"
-            android:onClick="genreSelected"/>
+            android:onClick="genreSelected"
+            android:layout_margin="5dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -72,21 +77,23 @@
             android:id="@+id/genre5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorPrimary"
+            android:background="@color/LightBlue"
             android:layout_weight="1.0"
             android:text="@string/ethics"
             android:tag="@string/ethics"
-            android:onClick="genreSelected"/>
+            android:onClick="genreSelected"
+            android:layout_margin="5dp"/>
 
         <Button
             android:id="@+id/genre6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.0"
-            android:background="@android:color/white"
+            android:background="@color/LightBlue"
             android:text="@string/life_death"
             android:tag="@string/life_death"
-            android:onClick="genreSelected"/>
+            android:onClick="genreSelected"
+            android:layout_margin="5dp"/>
     </LinearLayout>
 
 

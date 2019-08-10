@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if(savedInstanceState != null) {
+        if (savedInstanceState != null) {
             resetSelectors(savedInstanceState);
         }
     }
@@ -48,19 +48,22 @@ public class MainActivity extends AppCompatActivity {
     //when genres selected, go to questions generated
     public void goToQuestions(View view) {
         //if a genre has been selected, start the intent
-        if(isAnyGenreSelected()) {
-            // TODO:Add in functionality for sending what genre is selected to database to get questions
+        if (isAnyGenreSelected()) {
+            String extra = checkWhichGenreIsSelected();
             Intent goToQIntent = new Intent(this, Questions.class);
+            //add a genre to the extras in the intent
+            goToQIntent.putExtra("Genre",extra);
             startActivity(goToQIntent);
         } else {
-            Toast.makeText(this,"Must Select Genre Before",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Must Select Genre Before", Toast.LENGTH_SHORT).show();
         }
     }
+
     //simple check to see if any genre is selected
     private boolean isAnyGenreSelected() {
         //check if any selector is set to true
         boolean selected = false;
-        if(genre1clicked | genre2clicked | genre3clicked | genre4clicked | genre5clicked | genre6clicked) {
+        if (genre1clicked | genre2clicked | genre3clicked | genre4clicked | genre5clicked | genre6clicked) {
             selected = true;
         }
         return selected;
@@ -70,12 +73,12 @@ public class MainActivity extends AppCompatActivity {
     //create key,value pairs for each genre clicked state
     @Override
     protected void onSaveInstanceState(Bundle outState) {
-        outState.putBoolean(G1STATE,genre1clicked);
-        outState.putBoolean(G2STATE,genre2clicked);
-        outState.putBoolean(G3STATE,genre3clicked);
-        outState.putBoolean(G4STATE,genre4clicked);
-        outState.putBoolean(G5STATE,genre5clicked);
-        outState.putBoolean(G6STATE,genre6clicked);
+        outState.putBoolean(G1STATE, genre1clicked);
+        outState.putBoolean(G2STATE, genre2clicked);
+        outState.putBoolean(G3STATE, genre3clicked);
+        outState.putBoolean(G4STATE, genre4clicked);
+        outState.putBoolean(G5STATE, genre5clicked);
+        outState.putBoolean(G6STATE, genre6clicked);
         super.onSaveInstanceState(outState);
     }
 
@@ -145,6 +148,31 @@ public class MainActivity extends AppCompatActivity {
         if (toast != "") {
             Toast.makeText(this, toast, Toast.LENGTH_SHORT).show();
         }
+    }
+
+
+//check which genre is selected to add it to the key,value pair extra string
+
+    public String checkWhichGenreIsSelected() {
+        String genre = "";
+        if (genre1clicked) {
+            genre = "politics";
+        } else if (genre2clicked) {
+            genre = "sex";
+
+        } else if (genre3clicked) {
+            genre = "love";
+
+        } else if (genre4clicked) {
+            genre = "personality";
+
+        } else if (genre5clicked) {
+            genre = "ethics";
+
+        } else if (genre6clicked) {
+            genre = "life&death";
+        }
+        return genre;
     }
 }
 
