@@ -1,4 +1,4 @@
-package com.example.howmuchdoyouknow.Database;
+package com.example.howmuchdoyouknow.database;
 
 
 import androidx.annotation.NonNull;

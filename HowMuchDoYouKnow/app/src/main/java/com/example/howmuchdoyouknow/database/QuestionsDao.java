@@ -1,4 +1,4 @@
-package com.example.howmuchdoyouknow.Database;
+package com.example.howmuchdoyouknow.database;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -15,6 +15,9 @@ public interface QuestionsDao {
     //add a question
     @Insert
     void Insert(Question question);
+    //used for pre-populating db
+    @Insert
+    void insertAll(Question[] questions);
 
     //update a question
     @Update
@@ -28,15 +31,20 @@ public interface QuestionsDao {
     @Query("DELETE FROM Questions")
     void deleteAll();
 
-    //select all of the questions
-    @Query("SELECT * FROM Questions")
-    LiveData<List<Question>> getAllQuestions();
 
-    //select all questions that have this type of genre
     // LiveData is a data holder class that can be observed within a given lifecycle.
     // Always holds/caches latest version of data. Notifies its active observers when the
     // data has changed. Since we are getting all the contents of the database,
     // we are notified whenever any of the database contents have changed.
+
+
+    //select all of the questions
+    @Query("SELECT * FROM Questions")
+    LiveData<List<Question>> getAllQuestions();
+
+
+
+    //select all questions that have this type of genre
     @Query("SELECT * FROM Questions WHERE mGenre LIKE :genre")
     LiveData<List<Question>> getGenreQuestions(String genre);
 
