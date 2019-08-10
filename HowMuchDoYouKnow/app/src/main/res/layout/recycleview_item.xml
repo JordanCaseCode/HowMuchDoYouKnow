@@ -11,7 +11,8 @@
         android:text="Question"
         android:textAlignment="center"
         android:background="@color/Blue"
-        android:textSize="@android:dimen/app_icon_size" />
+        android:textSize="@android:dimen/app_icon_size"
+        android:padding="5dp"/>
     <LinearLayout
         android:id="@+id/A"
         android:layout_marginLeft="15dp"

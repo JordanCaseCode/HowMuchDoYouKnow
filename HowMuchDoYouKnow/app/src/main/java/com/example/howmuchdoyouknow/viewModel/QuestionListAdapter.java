@@ -4,7 +4,9 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -58,6 +60,12 @@ public class QuestionListAdapter extends RecyclerView.Adapter<QuestionListAdapte
             return 0;
         }
     }
+    //remove question from list
+    public void removeItem(int position) {
+        mQuestions.remove(position);
+        notifyItemRemoved(position);
+        notifyItemRangeChanged(position, mQuestions.size());
+    }
 
 
 
@@ -69,6 +77,10 @@ public class QuestionListAdapter extends RecyclerView.Adapter<QuestionListAdapte
         private final TextView answerB;
         private final TextView answerC;
         private final TextView answerD;
+        private final Button a;
+        private final Button b;
+        private final Button c;
+        private final Button d;
 
         private QuestionViewHolder(View itemView) {
             super(itemView);
@@ -77,7 +89,37 @@ public class QuestionListAdapter extends RecyclerView.Adapter<QuestionListAdapte
             answerB = itemView.findViewById(R.id.textB);
             answerC = itemView.findViewById(R.id.textC);
             answerD = itemView.findViewById(R.id.textD);
+            a = itemView.findViewById(R.id.buttonA);
+            b = itemView.findViewById(R.id.buttonB);
+            c = itemView.findViewById(R.id.buttonC);
+            d = itemView.findViewById(R.id.buttonD);
+            a.setOnClickListener(answerClicked);
+            b.setOnClickListener(answerClicked);
+            c.setOnClickListener(answerClicked);
+            d.setOnClickListener(answerClicked);
+            answerA.setOnClickListener(answerClicked);
+            answerB.setOnClickListener(answerClicked);
+            answerC.setOnClickListener(answerClicked);
+            answerD.setOnClickListener(answerClicked);
         }
 
+        private View.OnClickListener answerClicked = new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                if(view == a || view == answerA){
+                Toast.makeText(answerA.getContext(),answerA.getText().toString(),Toast.LENGTH_SHORT).show();
+                }
+                if(view == b|| view == answerB){
+                    Toast.makeText(answerB.getContext(),answerB.getText().toString(),Toast.LENGTH_SHORT).show();
+                }
+                if(view == c|| view == answerC){
+                    Toast.makeText(answerC.getContext(),answerC.getText().toString(),Toast.LENGTH_SHORT).show();
+                }
+                if(view == d|| view == answerD){
+                    Toast.makeText(answerD.getContext(),answerD.getText().toString(),Toast.LENGTH_SHORT).show();
+                }
+            }
+        };
     }
 }
