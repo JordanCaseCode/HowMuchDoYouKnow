@@ -12,7 +12,7 @@ public class QuestionData {
                 new Question("Which political scandal was your favorite?","politics","xyz-affair","watergate","Iran-contra","bill Clinton Affair"),
                 new Question("Which of these presidents did you like the most? ","politics","Obama","George Bush","Bill Clinton","Ronald Regan"),
                 new Question("How many times have you voted?","politics","0","1","2-3","3+")
-
+//TODO Add at least 10 quetions for each category. Follow the format for the current questions
 
 
         };

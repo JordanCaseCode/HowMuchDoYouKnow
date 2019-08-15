@@ -82,7 +82,8 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
     }
 
-    //TODO:Add functionality for switch to make floating button dimmed and non-clickable
+    //TODO:Add functionality for switch to make floating button clickable. Start the button dimmed and
+    // non-clickable.. make sure to have the buttons clickability be associated with a category selected
     //if a genre is clicked, set boolean to next state( true-> false or false ->true)
     public void genreSelected(View view) {
         int id = view.getId();

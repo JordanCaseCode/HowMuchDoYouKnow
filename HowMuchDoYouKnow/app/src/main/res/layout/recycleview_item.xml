@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/darkGrey">
-
+<!--TODO the buttons change in size based on the text in the textview beside them. Make it fixed without hard-coding!-->
     <TextView
         android:id="@+id/question"
         android:layout_width="match_parent"

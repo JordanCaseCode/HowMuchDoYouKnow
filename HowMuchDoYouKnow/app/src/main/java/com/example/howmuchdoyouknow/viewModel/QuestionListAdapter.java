@@ -109,7 +109,6 @@ public class QuestionListAdapter extends RecyclerView.Adapter<QuestionListAdapte
         }
 
 
-        //TODO:Add functionality for if someone clicks an answer
         //click method for setting the answer and showing the reveal answer
         private View.OnClickListener answerClicked = new View.OnClickListener() {
 
