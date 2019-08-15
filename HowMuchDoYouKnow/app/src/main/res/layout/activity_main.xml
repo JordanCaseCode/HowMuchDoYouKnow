@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     android:layout_width="match_parent">
 <LinearLayout
@@ -88,17 +89,18 @@
             android:id="@+id/genre6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="5dp"
             android:layout_weight="1.0"
             android:background="@color/LightBlue"
-            android:text="@string/life_death"
-            android:tag="@string/life_death"
             android:onClick="genreSelected"
-            android:layout_margin="5dp"/>
+            android:tag="@string/life_death"
+            android:text="@string/life_death" />
     </LinearLayout>
 
 
 
 </LinearLayout>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/genreSelected"
         android:layout_width="wrap_content"
@@ -107,5 +109,6 @@
         android:layout_margin="16dp"
         android:clickable="true"
         android:onClick="goToQuestions"
-        android:src="@android:drawable/checkbox_on_background" />
+        android:src="@drawable/ic_forward"
+        app:backgroundTint="@color/black" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

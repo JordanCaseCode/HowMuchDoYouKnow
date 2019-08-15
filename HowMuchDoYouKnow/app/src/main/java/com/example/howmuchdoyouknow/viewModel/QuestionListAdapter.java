@@ -1,6 +1,7 @@
 package com.example.howmuchdoyouknow.viewModel;
 
 import android.content.Context;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -81,10 +82,13 @@ public class QuestionListAdapter extends RecyclerView.Adapter<QuestionListAdapte
         private final Button b;
         private final Button c;
         private final Button d;
+        private final Button reveal;
+        private String answer="";
 
         private QuestionViewHolder(View itemView) {
             super(itemView);
             questionItemView = itemView.findViewById(R.id.question);
+            reveal = itemView.findViewById(R.id.revealAnswer);
             answerA = itemView.findViewById(R.id.textA);
             answerB = itemView.findViewById(R.id.textB);
             answerC = itemView.findViewById(R.id.textC);
@@ -101,24 +105,50 @@ public class QuestionListAdapter extends RecyclerView.Adapter<QuestionListAdapte
             answerB.setOnClickListener(answerClicked);
             answerC.setOnClickListener(answerClicked);
             answerD.setOnClickListener(answerClicked);
+            reveal.setOnClickListener(revealAnswer);
         }
 
+
+        //TODO:Add functionality for if someone clicks an answer
+        //click method for setting the answer and showing the reveal answer
         private View.OnClickListener answerClicked = new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
                 if(view == a || view == answerA){
-                Toast.makeText(answerA.getContext(),answerA.getText().toString(),Toast.LENGTH_SHORT).show();
+                    reveal.setVisibility(view.VISIBLE);
+                //Toast.makeText(answerA.getContext(),answerA.getText().toString(),Toast.LENGTH_SHORT).show();
+                answer = answerA.getText().toString();
                 }
                 if(view == b|| view == answerB){
-                    Toast.makeText(answerB.getContext(),answerB.getText().toString(),Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(answerB.getContext(),answerB.getText().toString(),Toast.LENGTH_SHORT).show();
+                    reveal.setVisibility(view.VISIBLE);
+                    answer = answerB.getText().toString();
                 }
                 if(view == c|| view == answerC){
-                    Toast.makeText(answerC.getContext(),answerC.getText().toString(),Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(answerC.getContext(),answerC.getText().toString(),Toast.LENGTH_SHORT).show();
+                    reveal.setVisibility(view.VISIBLE);
+                    answer = answerC.getText().toString();
                 }
                 if(view == d|| view == answerD){
-                    Toast.makeText(answerD.getContext(),answerD.getText().toString(),Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(answerD.getContext(),answerD.getText().toString(),Toast.LENGTH_SHORT).show();
+                    reveal.setVisibility(view.VISIBLE);
+                    answer = answerD.getText().toString();
                 }
+            }
+        };
+        //Click method to reveal answer and remove the reveal button
+        private View.OnClickListener revealAnswer = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(answer == ""){
+                    Toast.makeText(view.getContext(),"No Answer Selected",Toast.LENGTH_LONG).show();
+                    view.setVisibility(view.INVISIBLE);
+                }
+                Toast toast = Toast.makeText(view.getContext(),answer,Toast.LENGTH_LONG);
+                toast.setGravity(Gravity.CENTER,0,0);
+                toast.show();
+                view.setVisibility(view.INVISIBLE);
             }
         };
     }
