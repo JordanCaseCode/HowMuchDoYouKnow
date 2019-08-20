@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:text="Question"
         android:textAlignment="center"
+        android:gravity="center"
         android:background="@color/Blue"
         android:textSize="40dp"
         android:padding="5dp"
@@ -28,7 +29,7 @@
         android:background="@color/Blue">
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonA"
-            android:layout_weight="1"
+            android:layout_weight=".1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/LightBlue"
@@ -38,7 +39,8 @@
             android:id="@+id/textA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="4"
+            android:layout_weight=".9"
+            android:gravity="center"
             android:text="Answer A is here"
             />
     </LinearLayout>
@@ -56,7 +58,7 @@
         android:background="@color/Blue">
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonB"
-            android:layout_weight="1"
+            android:layout_weight=".1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/LightBlue"
@@ -66,7 +68,8 @@
             android:id="@+id/textB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="4"
+            android:gravity="center"
+            android:layout_weight=".9"
             android:text="Answer B is here"
             />
     </LinearLayout>
@@ -84,17 +87,18 @@
         android:background="@color/Blue">
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonC"
-            android:layout_weight="1"
+            android:layout_weight=".1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/LightBlue"
-            android:text="A"
+            android:text="C"
             />
         <TextView
             android:id="@+id/textC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="4"
+            android:layout_weight=".9"
+            android:gravity="center"
             android:text="Answer C is here"
             />
     </LinearLayout>
@@ -112,17 +116,18 @@
         android:background="@color/Blue">
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonD"
-            android:layout_weight="1"
+            android:layout_weight=".1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/LightBlue"
-            android:text="A"
+            android:text="D"
             />
         <TextView
             android:id="@+id/textD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="4"
+            android:layout_weight=".9"
+            android:gravity="center"
             android:text="Answer D is here"
             />
     </LinearLayout>

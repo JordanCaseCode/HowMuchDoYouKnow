@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -55,13 +56,12 @@ public class MainActivity extends AppCompatActivity {
             goToQIntent.putExtra("Genre",extra);
             startActivity(goToQIntent);
         } else {
-            Toast.makeText(this, "Must Select Genre Before", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Must Select Genre Before", Toast.LENGTH_SHORT).show();
         }
     }
 
     //simple check to see if any genre is selected
     private boolean isAnyGenreSelected() {
-        //check if any selector is set to true
         boolean selected = false;
         if (genre1clicked | genre2clicked | genre3clicked | genre4clicked | genre5clicked | genre6clicked) {
             selected = true;
@@ -82,10 +82,10 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
     }
 
-    //TODO:Add functionality for switch to make floating button clickable. Start the button dimmed and
-    // non-clickable.. make sure to have the buttons clickability be associated with a category selected
+
     //if a genre is clicked, set boolean to next state( true-> false or false ->true)
     public void genreSelected(View view) {
+        FloatingActionButton floatingActionButton = findViewById(R.id.genreSelected);
         int id = view.getId();
         String toast = "";
         switch (id) {
@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
                 if (genre1clicked == false) {
                     genre1clicked = true;
                     toast = "politics selected";
+
                 } else {
                     genre1clicked = false;
                     toast = "politics unselected";
@@ -121,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
                     genre4clicked = true;
                     toast = "personality selected";
                 } else {
-                    genre3clicked = false;
+                    genre4clicked = false;
                     toast = "personality unselected";
                 }
                 break;
@@ -149,6 +150,13 @@ public class MainActivity extends AppCompatActivity {
         if (toast != "") {
             Toast.makeText(this, toast, Toast.LENGTH_SHORT).show();
         }
+
+        if (isAnyGenreSelected()) {
+            floatingActionButton.show();
+        } else {
+            floatingActionButton.hide();
+        }
+
     }
 
 

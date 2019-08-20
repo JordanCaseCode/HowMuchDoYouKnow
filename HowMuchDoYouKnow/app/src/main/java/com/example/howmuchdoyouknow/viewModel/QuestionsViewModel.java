@@ -22,7 +22,7 @@ public class QuestionsViewModel extends AndroidViewModel {
         super(application);
         mRepository = new Repository(application);
     }
-
+    //TODO: set up wrapper call to get multiple genres and bring them all into the adapter viewer for the recyclerview
     //Set up wrapper calls to repository to perform operations on database
     public LiveData<List<Question>> getGenreQuestions(String genre) {
         return mRepository.getQuestionsByGenre(genre);
