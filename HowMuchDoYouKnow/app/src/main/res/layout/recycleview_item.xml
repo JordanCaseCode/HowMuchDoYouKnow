@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal"
-        android:background="@color/Blue">
+        android:background="@color/Blue" >
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonA"
             android:layout_weight=".1"
@@ -37,7 +37,7 @@
             />
         <TextView
             android:id="@+id/textA"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".9"
             android:gravity="center"
@@ -66,7 +66,7 @@
             />
         <TextView
             android:id="@+id/textB"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_weight=".9"
@@ -95,7 +95,7 @@
             />
         <TextView
             android:id="@+id/textC"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".9"
             android:gravity="center"
@@ -124,7 +124,7 @@
             />
         <TextView
             android:id="@+id/textD"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".9"
             android:gravity="center"
